@@ -1,0 +1,121 @@
+.textFormat {
+    z-index: 1;
+    font-size:15px;
+    font-family:Verdana;
+    text-align:center;
+}
+
+.board1 {
+    z-index: 1;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.board2 {
+    z-index: 1;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.yourTile {
+    z-index: 1;
+    border: solid 1px #0094ff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #0b7dff6c;
+    vertical-align: middle;
+}
+
+.enemyTile {
+    z-index: 1;
+    border: solid 1px #0094ff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #0b7dff6c;
+    vertical-align: middle;
+}
+
+.enemyTile:hover {
+    z-index: 1;
+    background-color: #0094ff;
+}
+
+.missTile {
+    z-index: 1;
+    border: solid 1px #0094ff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #ffffffff;
+    vertical-align: middle;
+}
+
+.hitTile {
+    z-index: 1;
+    border: solid 1px #0094ff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #ff0000;
+    vertical-align: middle;
+}
+
+.numberTile {
+    z-index: 1;
+    border: solid 1px #0094ff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #ffffffff;
+}
+
+.bigText {
+    z-index: 1;
+    font-size: 50px;
+    font-family:Verdana;
+    text-align:center;
+}
+
+.hidden {
+    display: none;
+}
+
+.leftSpace {
+    z-index: 1;
+    margin-top: 100px;
+    margin-left: 10%;
+    float: left;
+}
+
+.rightSpace {
+    z-index: 1;
+    margin-top: 100px;
+    margin-right: 10%;
+    float: right;
+}
+
+.popUpMsg {
+    position: absolute;
+    z-index: 2;
+    border: solid 10px #00000000;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(204, 150, 32);
+    padding: 40px;
+    margin-left: 40.5%;
+}
+
+.popUpWarning {
+    position: absolute;
+    z-index: 2;
+    border: solid 10px #00000000;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(204, 150, 32);
+    padding: 40px;
+    margin-left: 40.5%;
+}

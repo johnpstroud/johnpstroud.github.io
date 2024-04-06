@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Battleship</title>
+<script type="text/javascript" src="battleship.js"></script>
+</head>
+<body>
+
+    <link rel="stylesheet" href="style.css"> 
+
+    <form id="intro" class="textFormat">
+        <input type="text" id="name" size="25" value=""/>
+         <p id="paragraphName">Name of Player 1</p>
+        <input type="text" id="placements" size="25" value=""/>
+        <p id="paragraphPlace">Ship Placements</p>
+        <p>Ex:A(A1-A5);B(B6-E6);S(G3-I3);</p>
+        <input type="button" id="buttonName" value="Submit" onclick="getName()"/>
+    </form>
+
+    <form id="turnDiv" class="hidden">
+        <p id="turnIndicator" class="bigText"></p>
+        <input type="button" id="buttonConfirm" value="Confirm" onclick="playerTurn()"/>
+    </form>
+
+    <form id="nameDiv" class="hidden">
+        <p id="nameIndicator" class="bigText"></p>
+    </form>
+
+    <div id="victorDiv" class="hidden">
+        <p id="victorName" class="bigText"></p>
+        <p id="score1" class="textFormat"></p>
+        <p id="score2" class="textFormat"></p>
+    </div>
+
+    <div id="leftBoardSpace1" class="leftSpace">
+        <div id="leftBoard1" class="board1"></div>
+    </div>
+    
+    <div id="rightBoardSpace1" class="rightSpace">
+        <div id="rightBoard1" class="board2"></div>
+    </div>
+
+    <div id="leftBoardSpace2" class="leftSpace">
+        <div id="leftBoard2" class="board1"></div>
+    </div>
+    
+    <div id="rightBoardSpace2" class="rightSpace">
+        <div id="rightBoard2" class="board2"></div>
+    </div>
+
+    <div id="popUpMsg" class="hidden">
+        <p id="popUpMsgText"></p>
+        <input type="button" id="popUpMsgButton" value="Okay" onclick="hidePopUpMsg()"/>
+    </div>
+
+    <div id="popUpWarning" class="hidden">
+        <p id="popUpWarningText"></p>
+        <input type="button" id="popUpWarningButton" value="Okay" onclick="hidePopUpWarning()"/>
+    </div>
+
+</body>
+</html>
