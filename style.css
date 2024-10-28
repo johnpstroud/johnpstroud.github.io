@@ -8,8 +8,8 @@
 }
 
 @font-face {
-    font-family: 'Megatrans'; /*a name to be used later*/
-    src: url('files/MegatransdemoRegular-8M9B0.otf'); /*URL to font*/
+    font-family: 'Megatrans';
+    src: url('files/MegatransdemoRegular-8M9B0.otf');
 }
 
 .textFormat {
