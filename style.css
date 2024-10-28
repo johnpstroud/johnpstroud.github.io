@@ -13,7 +13,7 @@
 }
 
 .textFormat {
-    font-size: 15px;
+    font-size: 24px;
     font-family: Verdana;
     background-color:lightgrey;
 }
@@ -42,8 +42,22 @@
     text-align:center;
 }
 
+.inlineImage {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+}
+
+.arrow {
+    position: absolute;
+    visibility: hidden;
+    margin-left: 50%;
+    background: transparent;
+    bottom: 0;
+}
+
 .earth {
-    background-image: url("files/earth.png");
+    background-image: url("files/images/earth.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +75,7 @@
 }
 
 .background {
-    background-image: url("files/background.jpg");
+    background-image: url("files/images/background.jpg");
     height: 170vh;
     background-attachment: fixed;
     background-position: center;

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <script type="module">
-        const Resume = "files/Resume_JohnStroud.pdf";
-    </script>
+    <script type="text/javascript" src="app.js"></script>
 <head>
     <title>Personal Website</title>
     <link rel="stylesheet" href="style.css">
@@ -11,14 +9,17 @@
 
     <div class="background">
         <p class="nameCard">Hey, I'm John Stroud. I create secure and functional web applications.</p>
+        <div class="arrow">
+            <img id="indicator" src="files/images/whitearrow.gif" height=60/>
+        </div>
 
         <div class="earth"></div>
     </div>
     <div class="buffer">
         <form id="intro" class="links">
             <p>Check out my <a href="files/Resume_JohnStroud.pdf">Resume</a> or download it <a href="files/Resume_JohnStroud.pdf" download>Here</a></p>
-            <p>Or check out my <a href="http://linkedin.com/in/jpstroud">LinkedIn</a></p>
-            <p>Or check out my public <a href="https://github.com/johnpstroud?tab=repositories">GitHub</a> repositories</p>
+            <p>Or check out my <a href="http://linkedin.com/in/jpstroud">LinkedIn</a><img src="files/images/linkedin.png" class="inlineImage"/></p>
+            <p>Or check out my public <a href="https://github.com/johnpstroud?tab=repositories">GitHub</a><img src="files/images/github-mark-white.png" class="inlineImage"/> repositories</p>
             <p>Check out this <a href="files/battleship/index.html">Battleship</a> game I made as part of one of my college courses</p>
         </form>
     </div>
