@@ -68,8 +68,6 @@
     border-radius: 4px;
     height: 8vh;
     width: fit-content;
-    padding: 100px, 100px;
-    line-height: 8vh;
     white-space: nowrap;
     opacity: 1;
     transition: 0.3s;
