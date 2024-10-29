@@ -51,9 +51,11 @@
 .arrow {
     position: absolute;
     visibility: hidden;
-    margin-left: 50%;
     background: transparent;
     bottom: 0;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .earth {
