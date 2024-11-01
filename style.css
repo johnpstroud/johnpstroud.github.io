@@ -13,13 +13,13 @@
 }
 
 h2 {
-    color: #1E90FF ;
+    color: #fff ;
     text-align: center;
+    font-size: 48px;
 }
 
 h3 {
     color: #fff;
-    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -54,15 +54,16 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    height: 110vh;
+    height: 100vh;
 }
 
 .bio {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(3,4,40,1) 0%, rgba(18,23,56,1) 100%);
     background-color: #1a1a1a;
     margin-left: 10vw;
     margin-right: 10vw;
     border: none;
-    border-radius: 4px;
     text-align: left;
     padding: 35px 35px;
     list-style-position: inside;
@@ -82,8 +83,17 @@ p {
     background: #213164;
     color: white;
     padding: 10px 15px;
-    border-radius: 20px;
+    border-radius: 5px;
     font-weight: bold;
+}
+
+.subsection {
+    background-color: #1a1a1a;
+    margin: 2vh;
+    border: none;
+    border-radius: 16px;
+    padding: 35px 35px;
+    box-shadow: 0 0 20px rgba(25, 25, 34, 0.2);
 }
 
 .inlineImage {
