@@ -84,8 +84,7 @@ p {
     padding-right: 50px;
     background: black;
     position: relative;
-    z-index: 1;
-    
+    z-index: 1;    
 }
 
 .banner:after {
@@ -99,8 +98,6 @@ p {
     border-right: 48px solid transparent;
     z-index: -10;
 }
-
-
 
 .grid-container {
     display: grid;
@@ -157,6 +154,8 @@ p {
     border-radius: 16px;
     padding: 35px 35px;
     box-shadow: 20px 20px 20px rgba(19, 19, 26, 0.2);
+    display: flex;
+    align-items: center;
 }
 
 .inlineImage {
