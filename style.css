@@ -240,7 +240,6 @@ button > span {
 
 .bio__background {
     background-image: url("files/images/whitebackground.jpg");
-    height: 120vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
