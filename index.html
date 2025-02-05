@@ -8,23 +8,23 @@
 </head>
 <body class="textFormat">
 
-    <!-- Top of Page with Planet -->
+    <!-- Header -->
     <div class="header__background">
-        <div class="nameCard">
+        <div class="header__namecard">
             <p>Hey, I'm John Stroud. I create secure and functional web applications.</p>
         </div>
-        <div class="arrow">
+        <div class="header__arrow">
             <img id="indicator" src="files/images/whitearrow.gif" height=80/>
         </div>
 
-        <div class="earth"></div>
+        <div class="header__earth"></div>
     </div>
 
     <!-- About Me Section -->
     <div class="main bio__background">
-        <div class="earth__transition"></div>
+        <div class="header__transition"></div>
         <div class="bio__transparent">
-            <div class="banner">
+            <div class="bio__banner">
                 <h2>About Me</h2>
             </div>
         </div>
@@ -32,10 +32,10 @@
             <div class="bio__body">
                 <div>
 
-                    <!-- Bio -->
-                    <div class="bio__subsection item1">
-                        <button type="button" class="bio__button" onclick="collapsible('item1')"><h3>- My Story -</h3></button>
-                        <div class="text-hidden">
+                    <!-- My Story -->
+                    <div class="bio__subsection">
+                        <div>
+                            <h3>/* My Story */</h3>
                             <p>
                                 I am a motivated programmer who is passionate about creating secure software solutions. With experience in both front-end and back-end development, 
                                 I thrive as a full-stack developer, enjoying the balance between the two. I value variety and seek out exciting projects that let me explore emerging technologies.
@@ -44,10 +44,10 @@
                     </div>
 
                     <!-- Skills -->
-                    <div class="bio__subsection item2">
-                        <button type="button" class="bio__button" onclick="collapsible('item2')"><h3>- Skills -</h3></button>
+                    <div class="bio__subsection">
                         <div>
-                            <ul class="skills text-hidden">
+                            <h3>/* Skills */</h3>
+                            <ul class="bio__skills">
                                 <li>Java</li>
                                 <li>JavaScript</li>
                                 <li>Python</li>
@@ -72,9 +72,9 @@
                     </div>
 
                     <!-- Interests -->
-                    <div class="bio__subsection item3">
-                        <button type="button" class="bio__button" onclick="collapsible('item3')"><h3>- Interests -</h3></button>
-                        <div class="text-hidden">
+                    <div class="bio__subsection">
+                        <div>
+                            <h3>/* Interests */</h3>
                             <p>
                                 When I'm not programming, I enjoy sports at my local community center and immersing myself in videogames. 
                                 I’m fascinated by videogame complexity and the intricate design choices behind them. Exploring behind-the-scenes videos 
@@ -88,10 +88,10 @@
         </form>
     </div>
 
-    <!-- Foot of page with links -->
-     <div class="footer">
-        <p>Check out my <a href="files/Resume_JohnStroud.pdf">Resume</a> or download it <a href="files/Resume_JohnStroud.pdf" download>Here</a>.</p>
-        <p>Check out this <a href="files/battleship/index.html">Battleship</a> game I made as part of one of my college courses.</p>
+    <!-- Footer with links -->
+     <div class="bio__transition">
+        <p>Check out my <a href="files/Resume_JohnStroud.pdf">Resume</a> or download it <a href="files/Resume_JohnStroud.pdf" download>Here</a></p>
+        <p>Check out this <a href="files/battleship/index.html">Battleship</a> game I made as part of one of my college courses</p>
         <p><br>Check out my other projects on GitHub, connect with me on LinkedIn, or shoot me an email with a question or concern!</p>
         <div>
             <button class="button github" type="button" onclick="github()"><img src="files/images/github-mark-white.png" class="inlineImage"/> <span>GitHub</span></button>

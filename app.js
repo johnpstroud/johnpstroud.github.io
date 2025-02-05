@@ -21,15 +21,3 @@ function linkedin() {
 function gmail() {
   location.href="mailto:johnstroud701@gmail.com";
 }
-
-// This function makes the bio buttons open revealing the text behind
-function collapsible(item) {
-  var container = document.querySelector('.'+item);
-  container.classList.toggle('revealed');
-  
-  if (container.classList.contains('revealed')) {
-    container.style.backgroundColor = "#1a1a1a";
-  } else {
-    container.style.backgroundColor = "transparent";
-  }
-}
