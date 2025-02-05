@@ -148,7 +148,7 @@ p {
     overflow: auto;
 }
 
-/* About Me */
+/* About Me tab at top of bio */
 .bio__banner {
     color: white;
     float: left;
@@ -174,18 +174,6 @@ p {
     z-index: -10;
 }
 
-.bio__body {
-    background: transparent;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    border: none;
-    text-align: left;
-    padding: 35px 35px;
-    list-style-position: inside;
-    border-radius: 8px;
-    container-type: inline-size;
-}
-
 .bio__skills {
     list-style-type: none;
     padding: 0;
@@ -203,15 +191,9 @@ p {
 }
 
 .bio__subsection {
-    background-color: #1a1a1a;
     margin: 2vh;
-    border: none;
-    display: flex;
-    align-items: center;
-    position: relative;
-    border-radius: 500px;
-    background-color: transparent;
     padding: 0px 5vh 35px 5vh;
+    text-align: left;
 }
 
 /* Transitions from bio to footer */
@@ -221,6 +203,7 @@ p {
     margin-top: 3vh;
 }
 
+/* The transparent space around the About Me tab in bio */
 .bio__transparent {
     background: transparent;
     top: 0;
@@ -235,6 +218,7 @@ p {
 
 */
 
+/* For the button links at the bottom */
 .inlineImage {
     height: 40px;
     aspect-ratio: 1/1;
