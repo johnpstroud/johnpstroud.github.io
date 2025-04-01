@@ -37,24 +37,24 @@
 h1 {
     font-family: Megatrans;
     font-size: 48px;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
     color: white;
     text-align: center;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 /* About Me tab text */
 h2 {
-    color: #fff ;
-    text-align: center;
-    font-size: 48px;
     font-family: Consolas;
+    font-size: 48px;
+    color: white ;
+    text-align: center;
 }
 
 /* Green text in bio */
 h3 {
-    color: #5f8e43;
     font-family: Consolas;
     font-size: 24px;
+    color: #5f8e43;
     font-style: normal;
 }
 
@@ -64,11 +64,11 @@ p {
 }
 
 .textFormat {
-    font-size: 24px;
     font-family: Consolas;
+    font-size: 24px;
+    color: white;
     text-align:center;
     background-color: black;
-    color: white;
 }
 
 .main {
