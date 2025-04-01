@@ -1,5 +1,19 @@
-// Turns on an indicator to scroll down if the user does nothing for 2 seconds
-setTimeout(indicator, 2000);
+// Types out the namecard at the top of the page
+var i = 0;
+var text = "Hey, I'm John Stroud. I create functional and mobile-friendly web applications."
+var speed = 50;
+
+setTimeout(write, 300);
+function write() {
+  if (i < text.length) {
+    document.getElementById("namecard").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(write, speed);
+  }
+}
+
+// Turns on an indicator to scroll down if the user does nothing for 6 seconds
+setTimeout(indicator, 6000);
 function indicator() {
   document.getElementById("indicator").style.visibility = 'visible';
 }
